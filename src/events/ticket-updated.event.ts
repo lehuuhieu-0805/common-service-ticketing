@@ -1,6 +1,6 @@
 import { Subjects } from '../enums/subjects.enum';
 
-export interface TicketUpdateEvent {
+export interface TicketUpdatedEvent {
   subject: Subjects.TICKET_UPDATED;
   data: {
     id: string;
