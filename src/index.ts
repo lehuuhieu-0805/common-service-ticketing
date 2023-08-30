@@ -1,4 +1,4 @@
-export * from './enums/subjects.enum';
+export * from './enums';
 export * from './errors';
 export * from './events';
 export * from './listeners/base.listener';
